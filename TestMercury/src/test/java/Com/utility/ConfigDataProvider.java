@@ -9,7 +9,7 @@ public class ConfigDataProvider {
 	
 	public ConfigDataProvider()
 	{
-		File src=new File("D:\\Automation\\TestMercury\\Config\\Config.Properties");
+		File src=new File("./Config/Config.Properties");
 		try {
 			FileInputStream fis=new FileInputStream(src);
 			pro=new Properties();

@@ -11,7 +11,7 @@ public class ExcelDataProvider {
 	XSSFWorkbook wb;
 	
 	public ExcelDataProvider() {
-		File src=new File("D:\\Automation\\TestMercury\\TestData\\TestData.xlsx");
+		File src=new File("./TestData/TestData.xlsx");
 		try {
 			FileInputStream fis=new FileInputStream(src);
 			 wb=new XSSFWorkbook(fis);
